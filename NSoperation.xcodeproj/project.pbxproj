@@ -15,6 +15,7 @@
 		93A6B54C1F0DECF90008DACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A6B54A1F0DECF90008DACE /* LaunchScreen.storyboard */; };
 		93A6B5571F0DECF90008DACE /* NSoperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6B5561F0DECF90008DACE /* NSoperationTests.m */; };
 		93A6B5621F0DECF90008DACE /* NSoperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6B5611F0DECF90008DACE /* NSoperationUITests.m */; };
+		93A6B5741F0E12440008DACE /* ZSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6B5731F0E12440008DACE /* ZSOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93A6B55D1F0DECF90008DACE /* NSoperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSoperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A6B5611F0DECF90008DACE /* NSoperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSoperationUITests.m; sourceTree = "<group>"; };
 		93A6B5631F0DECF90008DACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A6B5721F0E12440008DACE /* ZSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSOperation.h; sourceTree = "<group>"; };
+		93A6B5731F0E12440008DACE /* ZSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				93A6B5401F0DECF90008DACE /* AppDelegate.m */,
 				93A6B5421F0DECF90008DACE /* ViewController.h */,
 				93A6B5431F0DECF90008DACE /* ViewController.m */,
+				93A6B5721F0E12440008DACE /* ZSOperation.h */,
+				93A6B5731F0E12440008DACE /* ZSOperation.m */,
 				93A6B5451F0DECF90008DACE /* Main.storyboard */,
 				93A6B5481F0DECF90008DACE /* Assets.xcassets */,
 				93A6B54A1F0DECF90008DACE /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				93A6B5441F0DECF90008DACE /* ViewController.m in Sources */,
 				93A6B5411F0DECF90008DACE /* AppDelegate.m in Sources */,
+				93A6B5741F0E12440008DACE /* ZSOperation.m in Sources */,
 				93A6B53E1F0DECF90008DACE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
